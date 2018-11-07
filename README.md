@@ -2,4 +2,4 @@
 
 ## 目录
 
-1. TX2火力全开[(docs/BuildDigits.md)]
+1. [TX2火力全开](docs/BuildDigits.md)
