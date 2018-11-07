@@ -1,3 +1,5 @@
-# hello-world
-my first repository
-my first edit readme
+# TX2学习笔记
+
+## 目录
+
+1. TX2火力全开(TX2火力全开.md)
