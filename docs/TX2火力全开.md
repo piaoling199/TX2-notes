@@ -27,6 +27,6 @@ sudo sh ~/jetson_clocks.sh
 ```
 ***遇到的问题*：** 不过我在TX2上运行这个脚本时出现错误，经过排查，我的判断是在385行的判断语句对384行的 **grep "nvidia,tegra210" /proc/device-tree/compatible &>/dev/null** 的判断逻辑错误，本意是只要找到TX1开发板的标志就判断是TX1开发板，否则是TX2，但逻辑错误导致无论如何都会判断为TX1。
 
-***解决方案:*** 只要删掉384行的 **&>/dev/null** 就可以运行了。如果嫌麻烦可以下载改好的[文件](jetson_clocks.sh)。
+***解决方案:*** 只要删掉384行的 **&>/dev/null** 就可以运行了。如果嫌麻烦可以下载改好的[文件（sources目录下的jetson_clocks.sh）](sources/jetson_clocks.sh)。
 
 ***参考文章：*** http://www.gpus.cn/qianduan/front/getNewsArc?articleid=133&from=timeline&isappinstalled=0
